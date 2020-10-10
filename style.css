@@ -56,16 +56,41 @@ img {
 }
 
 
+
 html{
     background-color:#d7e1ea;
     text-align: center,justify;
 }
 #vídeo{
     position: block;
-    width:200px;
-    height: 150px;
+    width :200px;
+    height:150px;
     border-radius: 50%; 
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px;
     overflow: hidden;
 }
+
+    
+  
+h1{
+    animation-duration: 3s;
+  animation-name: slidein;
+  transition-delay: 0s;
+    transform: none;
+}
+@keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
+  
+
+ 
